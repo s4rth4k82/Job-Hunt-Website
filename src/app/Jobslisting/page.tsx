@@ -102,15 +102,17 @@ export default function Jobslisting() {
           </form>
         </div>
         <div className="h-auto overflow-hidden">
-
           {!loading && (
             <div className="flex flex-wrap justify-center items-center gap-4 my-10 mx-8">
-              {jobsData &&
+              {jobsData === undefined ? (
+                <p>No Jobs Found</p>
+              ) : (
                 jobsData.map((job, index) => (
                   <div key={index}>
                     <Card job={job} />
                   </div>
-                ))}
+                ))
+              )}
             </div>
           )}
         </div>
