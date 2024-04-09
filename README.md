@@ -5,7 +5,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Sarthak8822/job-hunt
+   git clone https://github.com/s4rth4k82/Job-Hunt-Website
    
 2. Create a .env file in the root of the project and add your configuration:
 

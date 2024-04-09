@@ -21,7 +21,7 @@ function Footer() {
               <Link href="https://www.linkedin.com/in/sarthak-modhe" target="_blank">
                 <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
               </Link>
-              <Link href="https://github.com/Sarthak8822" target="_blank">
+              <Link href="https://github.com/s4rth4k82" target="_blank">
                 <FaGithub className="text-2xl cursor-pointer hover:text-gray-500" />
               </Link>
             </div>
@@ -74,7 +74,7 @@ function Footer() {
       <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-900">
         <h1 className=" text-gray-400 font-semibold">
           © 2024 All rights reserved | Built with ❤ by {" "}
-          <Link href="https://github.com/Sarthak8822">
+          <Link href="https://github.com/s4rth4k82">
             <span className="hover:text-blue-400 font-semibold cursor-pointer">
               Me{" "}
             </span>
